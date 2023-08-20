@@ -217,12 +217,13 @@
     top: 130px;
   }
   
-  .hero .content h1 {
-    font-size: 5em;
-    color: #fff;
-    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-    line-height: 1.2;
-  }
+ .hero .content h1 {
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
+  mix-blend-mode: difference;
+}
   
   .hero .content h1 span {
     color: var(--primary);
